@@ -1,0 +1,187 @@
+/*
+    author: @FifkaFo
+*/
+
+
+body {
+    padding: 0;
+    margin: 0;
+    height: 100%;
+}
+
+
+
+
+header {
+    padding: 5px 0;
+    margin-bottom: 10em;
+}
+
+.logo {
+    font-family: 'Pacifico', cursive;
+    font-size: xx-large;
+    text-decoration: none;
+    color: #afafaf;
+    text-shadow: 1px 1px 2px black;
+}
+.container {
+    margin: 0 20%;
+}
+
+.content-panel {
+    background-color: rgba(215, 215, 215, 0.45);
+    border-radius: 15px;
+    padding: 10px;
+    box-shadow: 1px 1px 100px 1px #c4c4c4;
+}
+
+/* Profile info*/
+
+.profile-info {
+    display: flex;
+}
+
+.profile-info__avatar {
+    display: inline-block;
+    background: url("https://i.imgur.com/xobbWNy.png") no-repeat;
+    width: 200px;
+    height: 200px;
+    background-size: contain;
+    border-radius: 100px;
+}
+.profile-info__info{
+    flex: 2;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.profile-info__initials {
+    font-size: x-large;
+    margin: 0 0 10px 0;
+    color: #3a3a3a;
+}
+
+.profile-info__contacts {
+    direction: inherit;
+}
+
+.profile-info__link {
+    display: inline-block;
+    text-decoration: none;
+    color: #3a3a3a;
+}
+
+.profile-info-contacts__image {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/*link images*/
+.image-telegram {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Telegram_2019_Logo.svg/800px-Telegram_2019_Logo.svg.png");
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+.image-github {
+    background: url("https://upload.wikimedia.org/wikipedia/commons/c/c2/GitHub_Invertocat_Logo.svg");
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+.image-email {
+    background: url("https://cdn-icons-png.flaticon.com/512/2594/2594213.png");
+    width: 20px;
+    height: 20px;
+    background-size: contain;
+}
+
+/* Profile menu*/
+
+.profile-menu {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-menu__button {
+    padding: 10px;
+    border: 1px #575757 solid;
+    border-radius: 10px;
+    color: #3a3a3a;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: 0.2s;
+}
+
+.profile-menu__button:hover {
+    padding: 10px;
+    color: white;
+    background-color: #575757;
+    transition: background-color 0.2s;
+    text-decoration: none;
+}
+
+/* my experience */
+
+.myexperience-subsection__description {
+    display: flex;
+    justify-content: space-between;
+}
+.myexperience-subsection__image {
+    width: 100px;
+    height: 100px;
+}
+
+/*footer*/
+footer {
+    margin-top: 20px;
+    padding: 10px 0;
+    color: #e8e8e8;
+}
+
+/*my projects*/
+
+.my-projects-section__project {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.my-projects-section__project img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.my-projects-section__info {
+    flex: 4;
+    text-decoration: none;
+}
+.my-projects-section__info a {
+    text-decoration: none;
+    color: #575757;
+}
+.my-projects-section__info a:hover {
+    text-decoration: none;
+    color: #3a3a3a;
+}
+.my-projects-section__technologies {
+    flex: 1;
+}
+.my-projects-section__tag {
+    display: inline-block;
+    padding: 2px;
+    margin: 2px;
+    background-color: #afafaf;
+    border: #afafaf 1px solid;
+    border-radius: 5px;
+    color: #3a3a3a;
+}
+
+.my-projects-section__tag:hover {
+    background-color: #575757;
+    border-color: #575757;
+    color: #c4c4c4;
+}
+
+
+
