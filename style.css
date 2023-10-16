@@ -32,7 +32,7 @@ header {
     background-color: rgba(215, 215, 215, 0.45);
     border-radius: 15px;
     padding: 10px;
-    box-shadow: 1px 1px 100px 1px #c4c4c4;
+    box-shadow: 2px 2px 20px 1px #c4c4c4;
 }
 
 /* Profile info*/
